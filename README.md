@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/e052e680ba705b7ed7be5.jpg">
+  <img src="https://telegra.ph/file/b0b7acb8936c1aea582ed.jpg">
 <h1 align="center"><b> MISAKI ROBOT</b></h1>
 </p>
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
