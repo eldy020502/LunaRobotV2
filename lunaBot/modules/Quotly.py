@@ -2,8 +2,8 @@ from io import BytesIO
 from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
-from NaoRobot.utils.errors import capture_err
-from NaoRobot import pbot as app, arq
+from lunaBot.utils.errors import capture_err
+from lunaBot import pbot as app, arq
 
 
 async def quotify(messages: list):
