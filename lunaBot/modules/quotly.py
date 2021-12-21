@@ -9,7 +9,7 @@ from fontTools.ttLib import TTFont
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from telethon.tl import functions, types
 
-from lunabot.events import register
+from lunaBot.events import register
 
 COLORS = [
     "#F07975",
