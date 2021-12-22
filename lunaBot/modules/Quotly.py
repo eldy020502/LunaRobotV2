@@ -12,6 +12,7 @@ from asyncio.exceptions import TimeoutError
 
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
+from lunaBot import CMD_HELP, bot
 from lunaBot.events import register
 
 if 1 == 1:
@@ -102,3 +103,12 @@ async def quote_search(event):
         await event.edit(result.replace("<code>", "`").replace("</code>", "`"))
     else:
         await event.edit("`Tidak Ada Hasil Yang Ditemukan`")
+
+
+CMD_HELP.update({
+    "quotly":
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.q`\
+\n↳ : Mengubah Pesan Menjadi sticker.\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.xquote`\
+\n↳ : Mengubah Pesan Menjadi sticker."
+})
